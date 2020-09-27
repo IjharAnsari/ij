@@ -98,7 +98,8 @@ $(window).on('load', function() {
 		startPosition: 'URLHash',
 		mouseDrag: false,
 		autoplay:true,
-    	autoplayTimeout:3000,
+		autoplayTimeout:3000,
+		autoplayHoverPause:true,
         onInitialized: function() {
         	var a = this.items().length;
         	if(a < 10){
