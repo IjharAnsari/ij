@@ -95,7 +95,7 @@ $(window).on('load', function() {
         navText: ['<img src="./img/angle-left-w.png" alt="">', '<img src="./img/angle-rignt.png" alt="">'],
         smartSpeed: 1200,
         autoHeight: false,
-		startPosition: 'URLHash',
+	startPosition: 'URLHash',
         mouseDrag: false,
         onInitialized: function() {
         	var a = this.items().length;
